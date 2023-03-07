@@ -1,12 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div>
-      <h2>Hello world</h2>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
 
 export default App;
+
+
+  // const para = document.createElement('p');
+  // para.textContent = "Hi mahmoud";
+  // document.getElementById('root').append(para);
+
+  
